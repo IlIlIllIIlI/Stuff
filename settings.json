@@ -1,0 +1,23 @@
+{
+    "password_gen": "[a-zA-Z0-9]{15}",
+    "AccountSaving":{
+        "AccountOutputDirectory":"./accounts",
+
+        "CookiesFile":true,
+        "AccountLoginComboFile":true,
+        "SaveAccountCookiesComboFile":true
+    },
+
+    "UsernameGeneration": {
+        "EnableAIGeneration":true,
+
+        "UsernameAPIKey":"",
+        "$COMMENT": "Get your Username API Key from your username account provider or use .gg/robloxalts to get your key",
+
+        "UsernamePrefix":"rbxaltsontop_",
+        "$COMMENT2": "Change this if you are not using AI Generation, this will add a random 6 character string to the back of the Prefix. This will also be used as a fallback if the API returns an error."
+    },
+
+    "serverurl": "http://accounts.robloxalts.info.",
+    "$COMMENT": "You can change this if you want to use a different provider but version check will still be done on robloxalts servers."
+}
